@@ -36,26 +36,19 @@ h1 {
     padding: 14px 50px 9px 50px;
 }
 
-.section-2 {
-    background-color: #ffffff;
-    height: 510px;
-    width: 800px;
-    margin: auto;
-    border-radius: 0px 0px 10px 10px;
-    padding: 35px 50px;
+.btn {
+    background: transparent;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 6px;
+    color: #C4cbd0;
+    border-color: #C4cbd0;
 }
 
-.list-title {
-    font-size: 20px;
-    color: #434851;
-}
-
-.list {
-    font-size: 18px;
-    list-style: none;
-    line-height: 2.0;
-    padding: 0px 0px 20px 0px;
-    color: #434851;
+.btn-task {
+    background-color: #14AAF5;
+    color: white;
+    border-color: #14AAF5;
 }
 
 .circlecheck {
@@ -80,4 +73,26 @@ h1 {
     border-radius: 100%;
     margin: 8px 8px 8px 0px;
     color: red;
+}
+
+.section-2 {
+    background-color: #ffffff;
+    height: 510px;
+    width: 800px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    padding: 35px 50px;
+}
+
+.list-title {
+    font-size: 20px;
+    color: #434851;
+}
+
+.list {
+    font-size: 18px;
+    list-style: none;
+    line-height: 2.0;
+    padding: 0px 0px 20px 0px;
+    color: #434851;
 }
