@@ -52,30 +52,6 @@ h1 {
     border-color: #14AAF5;
 }
 
-.circlecheck {
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    line-height: 20px;
-    text-align: center;
-    border: 1px solid #2cc6ab;
-    border-radius: 100%;
-    margin: 8px 8px 8px 0px;
-    color: #2cc6ab;
-}
-
-.circlecross {
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    line-height: 20px;
-    text-align: center;
-    border: 1px solid red;
-    border-radius: 100%;
-    margin: 8px 8px 8px 0px;
-    color: red;
-}
-
 .section-2 {
     background-color: #ffffff;
     height: 510px;
@@ -96,4 +72,65 @@ h1 {
     line-height: 2.0;
     padding: 0px 0px 20px 0px;
     color: #434851;
+}
+
+.circlecheck {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #2cc6ab;
+    border-radius: 100%;
+    margin: 8px 8px 8px 0px;
+    color: #2cc6ab;
+    font-size: 12px;
+}
+
+.circlecross {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 100%;
+    margin: 8px 8px 8px 0px;
+    color: red;
+    font-size: 12px;
+}
+
+.tag {
+    display: inline-block;
+    height: 24px;
+    padding: 0px 12px;
+    color: white;
+    font-size: 12px;
+    line-height: 24px;
+    border-radius: 10px;
+    margin-left: 6px;
+}
+
+.tag-blue {
+    background-color: #14aaf5;
+}
+
+.tag-purple {
+    background-color: #ab5de6;
+}
+
+.tag-green {
+    background-color: #2cc6ab;
+}
+
+.tag-orange {
+    background-color: #ff9b00;
+}
+
+.tag-pink {
+    background-color: #ec4a9d;
+}
+
+.tag-sage {
+    background-color: #a3d116;
 }
